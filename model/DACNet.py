@@ -3,7 +3,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import torch.utils.checkpoint as ckpt
-from encoder.pvtv2_encoder import pvt_v2_b4
+from model.encoder.pvtv2_encoder import pvt_v2_b4
 from VMamba.vmamba import SS2D
 
 
