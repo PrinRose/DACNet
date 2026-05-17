@@ -2,11 +2,6 @@
 
 Official implementation of **DACNet: Detail-Aware Context Modeling with Coherent Refinement for Camouflaged Object Detection**.
 
-## News
-
-- Code for training and inference has been released.
-- Evaluation tools are provided under `evaltools/`.
-
 ## Requirements
 
 The code is based on PyTorch. A typical environment is:
