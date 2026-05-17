@@ -7,7 +7,7 @@ from PIL import Image
 from tqdm import tqdm
 from torchvision import transforms
 
-from DACNet import CamouflageDetectionModelSpatialMamba as CamouflageDetectionModel
+from model.DACNet import CamouflageDetectionModelSpatialMamba as CamouflageDetectionModel
 
 ROOT = "../.."
 MODEL_PATH = os.path.join(ROOT, "checkpoint.pth")
