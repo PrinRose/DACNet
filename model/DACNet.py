@@ -188,7 +188,8 @@ class CamouflageDetectionModelSpatialMamba(nn.Module):
                 if getattr(m, "bias", None) is not None: nn.init.zeros_(m.bias)
 
     def forward(self, x):
-        x = x.unsqueeze(0)
+        if x.dim() == 3:
+            x = x.unsqueeze(0)
         xin = F.interpolate(x, size=self.img_size, mode='bilinear', align_corners=False)
 
         c4, c3, c2, c1 = self.encoder(xin)
