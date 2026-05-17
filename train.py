@@ -11,7 +11,7 @@ from torch.amp import autocast as autocast_amp, GradScaler as AmpGradScaler
 import torchvision.utils as vutils
 import torch.nn.functional as F
 
-from DACNet import CamouflageDetectionModelSpatialMamba as CamouflageDetectionModel
+from model.DACNet import CamouflageDetectionModelSpatialMamba as CamouflageDetectionModel
 from data_loader import CustomDataset, custom_collate_fn
 from loss import CombinedLoss
 from utils import save_fullsize_visualization_with_bbox, ModelEMA, load_checkpoint, plot_loss_curves, save_checkpoint
