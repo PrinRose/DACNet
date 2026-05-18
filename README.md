@@ -51,16 +51,9 @@ This repository does not redistribute the datasets. After downloading, please or
 data/TrainDataset/
 ├── Image/
 └── GT_Object/
+```
 
 ## Training
-
-Before training, make sure that:
-
-1. The training dataset is placed under `data/TrainDataset/`.
-2. The PVTv2-B4 pretrained weight is placed at `pretrained/pvt_v2_b4.pth`.
-3. VMamba/SS2D can be imported correctly.
-
-Then run:
 
 ```bash
 python train.py
