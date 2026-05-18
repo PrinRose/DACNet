@@ -2,6 +2,14 @@
 
 Official implementation of **DACNet: Detail-Aware Context Modeling with Coherent Refinement for Camouflaged Object Detection**.
 
+## Manuscript
+
+This code is directly related to our manuscript currently submitted to *The Visual Computer*:
+
+**Detail-Aware Context Modeling and Coherent Refinement for Camouflaged Object Detection**
+
+Readers who use this repository are encouraged to cite the corresponding manuscript once it is published or publicly available.
+
 ## Requirements
 
 The code is based on PyTorch. A typical environment is:
