@@ -41,6 +41,17 @@ The PVTv2 encoder requires the ImageNet-pretrained PVTv2-B4 checkpoint. Please d
 https://github.com/whai362/PVT
 ```
 
+## Dataset
+
+We use the commonly adopted COD training and testing datasets, including CAMO, COD10K, and NC4K. Please download these datasets from their official sources or the links provided by the original benchmark papers.
+
+This repository does not redistribute the datasets. After downloading, please organize the training data as:
+
+```text
+data/TrainDataset/
+├── Image/
+└── GT_Object/
+
 ## Training
 
 Before training, make sure that:
