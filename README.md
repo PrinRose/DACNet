@@ -80,3 +80,6 @@ Evaluation scripts are provided under:
 ```text
 evaltools/
 ```
+## Model Weights
+
+The trained DACNet model weights are available at [Baidu Netdisk]([https://pan.baidu.com/s/xxxxxxxx](https://pan.baidu.com/s/1le6Ft1GQThNXzHZXK2gsPw?pwd=jwwf)).
