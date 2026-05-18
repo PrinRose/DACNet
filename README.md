@@ -80,6 +80,3 @@ Evaluation scripts are provided under:
 ```text
 evaltools/
 ```
-
-
-Please update the BibTeX entry after the paper information is finalized.
