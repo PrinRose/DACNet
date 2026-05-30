@@ -6,7 +6,7 @@ Official implementation of **DACNet: Detail-Aware Context Modeling with Coherent
 
 This code is directly related to our manuscript currently submitted to *Signal, Image and Video Processing*:
 
-**Detail-Aware Context Modeling and Coherent Refinement for Camouflaged Object Detection**
+**DACNet: Detail-Aware Context Modeling with Coherent Refinement for Camouflaged Object Detection**
 
 Readers who use this repository are encouraged to cite the corresponding manuscript once it is published or publicly available.
 
