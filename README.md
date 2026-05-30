@@ -8,7 +8,7 @@ This code is directly related to our manuscript currently submitted to *Signal, 
 
 **DACNet: Detail-Aware Context Modeling with Coherent Refinement for Camouflaged Object Detection**
 
-Readers who use this repository are encouraged to cite the corresponding manuscript once it is published or publicly available.
+If you use this repository in your research, please cite the corresponding manuscript once it is published or publicly available.
 
 ## Requirements
 
